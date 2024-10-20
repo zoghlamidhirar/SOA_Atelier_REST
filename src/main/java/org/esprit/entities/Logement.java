@@ -20,7 +20,7 @@ public class Logement {
     private String description;
     private float prix;
 
-   // public Logement() {}
+   public Logement() {}
 
     public Logement(int reference, String adresse, String delegation, String gouvernorat, String type, String description, float prix) {
         this.reference = reference;
@@ -91,5 +91,8 @@ public class Logement {
     public void setPrix(float prix) {
         this.prix = prix;
     }
+
+
+
 
       }
